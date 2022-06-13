@@ -1,0 +1,8 @@
+name: 'timezone module specbee'
+description: 'Module to display time according to selected timezone.'
+core_version_requirement : ^8 || ^9
+package: Custom
+type: module
+version: 1.0
+dependencies:
+  - drupal:block
