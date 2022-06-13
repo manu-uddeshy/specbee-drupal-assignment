@@ -81,7 +81,7 @@ class TimezoneBlock extends BlockBase implements ContainerFactoryPluginInterface
     }
     else {
       $data = $this->TimezoneServiceClass->getCurrentTime();
-      $this->cache->set('custom_block_specbee', $data, $this->time->getRequestTime() + (60));
+      $this->cache->set('custom_block_specbee', $data, $this->time->getRequestTime() + (10));
     }
 
     return [
